@@ -1,0 +1,154 @@
+{
+  "nome": "latte parzialmente scremato",
+  "marca(opzionale)": "",
+  "kcalPerCentoG": "47",
+  "macro" : {
+    "carboidrati": "5" ,
+    "proteine": "1.6",
+    "grassi": "3",
+  },
+  "RangePorzioneMedia": ["150","220"],
+  "DolceSalato": "dolce",
+  "AlimentoPrincipale": "no",
+  "MomentoInCuiMangiarlo": ["colazione"]
+},
+{
+  "nome": "mela",
+  "marca(opzionale)": "",
+  "kcalPerCentoG": "48",
+  "macro" : {
+    "carboidrati": "12",
+    "proteine": "0",
+    "grassi": "0",
+  },
+  "RangePorzioneMedia": ["100","120"],
+  "DolceSalato": "dolce",
+  "AlimentoPrincipale": "no",
+  "MomentoInCuiMangiarlo": ["pranzo","merenda"]
+},
+{
+  "nome": "Petto di tacchino (affettato)",
+  "marca(opzionale)": "aia",
+  "kcalPerCentoG": "100",
+  "macro" : {
+    "carboidrati": "2.5" ,
+    "proteine": "18",
+    "grassi": "2",
+  },
+  "RangePorzioneMedia": ["80","130"],
+  "DolceSalato": "salato",
+  "AlimentoPrincipale": "si",
+  "MomentoInCuiMangiarlo": ["pranzo","cena"]
+},
+{
+  "nome": "Simmental",
+  "marca(opzionale)": "" ,
+  "kcalPerCentoG": "62",
+  "macro" : {
+    "carboidrati": "0.2",
+    "proteine": "11.4",
+    "grassi": "1.5",
+  },
+  "RangePorzioneMedia": ["90","130"],
+  "DolceSalato": "salato",
+  "AlimentoPrincipale": ["si"],
+  "MomentoInCuiMangiarlo": ["pranzo","cena"]
+},
+{
+  "nome": "Fusilli",
+  "marca(opzionale)": "Barilla",
+  "kcalPerCentoG": "356",
+  "macro" : {
+    "carboidrati": "72",
+    "proteine": "12",
+    "grassi": "1.5",
+  },
+  "RangePorzioneMedia": ["90","130"],
+  "DolceSalato": "salato",
+  "AlimentoPrincipale": "si",
+  "MomentoInCuiMangiarlo": ["pranzo","cena"]
+},
+{
+  "nome": "Fette biscottate integrali",
+  "marca(opzionale)": "lidl",
+  "kcalPerCentoG": "389",
+  "macro" : {
+    "carboidrati": "70.8",
+    "proteine": "11.7",
+    "grassi": "4.9",
+  },
+  "RangePorzioneMedia": ["45", "75"],
+  "DolceSalato": "dolce",
+  "AlimentoPrincipale": "si",
+  "MomentoInCuiMangiarlo": ["colazione"]
+},
+{
+  "nome": "Mandorle",
+  "marca(opzionale)": "",
+  "kcalPerCentoG": "603",
+  "macro" : {
+    "carboidrati": "4.6",
+    "proteine": "22",
+    "grassi": "55.3",
+  },
+  "RangePorzioneMedia": ["10","25"],
+  "DolceSalato": "salato",
+  "AlimentoPrincipale": "no",
+  "MomentoInCuiMangiarlo": ["colazione","merenda"]
+},
+{
+  "nome": "olio",
+  "marca(opzionale)": "" ,
+  "kcalPerCentoG": "822",
+  "macro" : {
+    "carboidrati": "0",
+    "proteine": "0",
+    "grassi": "90",
+  },
+  "RangePorzioneMedia": ["8","20"],
+  "DolceSalato": "salato",
+  "AlimentoPrincipale": "no",
+  "MomentoInCuiMangiarlo": ["pranzo","cena"]
+},
+{
+  "nome": "pane",
+  "marca(opzionale)": "",
+  "kcalPerCentoG": "263",
+  "macro" : {
+    "carboidrati": "53.7",
+    "proteine": "8.7",
+    "grassi": "1.1",
+  },
+  "RangePorzioneMedia": ["50","130"],
+  "DolceSalato": "salato",
+  "AlimentoPrincipale": "si",
+  "MomentoInCuiMangiarlo": ["pranzo","cena","merenda"]
+},
+{
+  "nome": "Penne",
+  "marca(opzionale)": "Barilla",
+  "kcalPerCentoG": "353",
+  "macro" : {
+    "carboidrati": "74",
+    "proteine": "12.3",
+    "grassi": "1.8",
+  },
+  "RangePorzioneMedia": ["80","130"],
+  "DolceSalato": "salata",
+  "AlimentoPrincipale": "si",
+  "MomentoInCuiMangiarlo": ["pranzo","cena"]
+},
+{
+  "nome": "Uovo",
+  "marca(opzionale)": "",
+  "kcalPerCentoG": "155",
+  "macro" : {
+    "carboidrati": "1.1",
+    "proteine": "13",
+    "grassi": "11",
+  },
+  "RangePorzioneMedia": ["100","140"],
+  "DolceSalato": "salato",
+  "AlimentoPrincipale": "si",
+  "MomentoInCuiMangiarlo": ["pranzo","cena"]
+}

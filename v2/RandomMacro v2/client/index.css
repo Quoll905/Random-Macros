@@ -1,0 +1,509 @@
+
+body{
+  background: #ffd65e; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffd65e 3%, #ffd65e 3%, #ffd65e 20%, #ffd65e 20%, #ffd65e 30%, #febf04 46%, #febf04 46%, #febf04 52%, #febf04 52%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffd65e 3%,#ffd65e 3%,#ffd65e 20%,#ffd65e 20%,#ffd65e 30%,#febf04 46%,#febf04 46%,#febf04 52%,#febf04 52%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffd65e 3%,#ffd65e 3%,#ffd65e 20%,#ffd65e 20%,#ffd65e 30%,#febf04 46%,#febf04 46%,#febf04 52%,#febf04 52%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=0 ); /* IE6-9 */
+}
+
+@font-face {
+  font-family: Merriweather;
+  src: url('Font/Merriweather/Merriweather-Italic.ttf')
+}
+
+@font-face {
+  font-family: FiraSans;
+  src: url('Font/Fira_Sans/FiraSans-SemiBold.ttf')
+}
+
+.navbar-brand,
+.nav-link,
+.nav-item > .btn,
+.card-title,
+.pagina-supportaci h2,
+.pagina-informazioni h2,
+.card-body > .btn,
+button[type="submit"]{
+  font-family: FiraSans;
+}
+
+.card-text,
+.pagina-informazioni,
+.testo-donazioni,
+.ringraziamenti
+footer{
+  font-family: Merriweather;
+  font-size: 18px;
+}
+
+
+
+/* --------------
+      NAVBAR
+  -------------- */
+
+.navbar{
+  z-index: 100;
+}
+
+.navbar-brand{
+  cursor: pointer;
+  margin-left: 25px;
+}
+
+#navbarNavDropdown{
+  justify-content: flex-end;
+}
+
+#navbarNavDropdown{
+  text-align: center;
+  margin-top: 0px;
+}
+
+.nav-link{
+  font-size: 20px;
+}
+
+.nav-item{
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.navbar, .navbar-brand{
+  font-size: 1.2em;
+}
+
+.btn-navbar-container{
+  margin-top: 3px;
+}
+
+
+/* --------------
+      CORPO
+  -------------- */
+
+
+.corpo{
+  /* border: 1px solid blue; */
+  overflow:hidden;
+  height: auto;
+  width: 100vw;
+}
+
+/* ------ PAGINA INFORMAZIONI -----*/
+
+.pagina-informazioni{
+  display: flex;
+  flex-direction: column;
+  visibility:hidden;
+  display: none;
+  height: 60vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------ PAGINA CONTATTI -----*/
+
+.pagina-contatti{
+  visibility: hidden;
+  display: none;
+  height: 60vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------ PAGINA SUPPORTACI -----*/
+
+.pagina-supportaci{
+  visibility: hidden;
+  display: none;
+  height: 60vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* --------------
+      INFO
+  -------------- */
+
+.info{
+  order: 1;
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  float: left;
+  /* border: 1px solid blue; */
+  margin-top: 6vh;
+  text-align: center;
+  padding: 30px;
+  font-family: Merriwheater;
+  font-size: 1.3em;
+}
+
+.info{
+  animation-duration: 1s;
+  color: darkblue;
+}
+
+
+
+
+/* --------------
+      FORM
+  -------------- */
+
+.container-form{
+  order: 2;
+  width: 50%;
+  height: auto;
+  /* border: 1px solid blue; */
+  float: right;
+  text-align: center;
+  padding-top: 17vh;
+  display: inline-block;
+  font-size: 1.4em;
+  position: relative;
+}
+
+
+.container-form{
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+}
+
+
+form{
+  /* border: 1px solid blue; */
+}
+
+form input {
+  border-radius: 15px;
+  border-color: darkblue;
+  text-align: center;
+  color: darkblue;
+}
+
+form input[type="number"]:focus {
+  border: 3px solid blue;
+  outline: 0 none;
+}
+
+form .btn{
+  border-radius: 12px;
+  background: blue;
+  margin-top: 20px;
+  width: 150px;
+  height: auto;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+form label{
+  text-transform: uppercase;
+  color: darkblue;
+  font-family: FiraSans;
+  font-size: 1.3em;
+}
+
+  /* ------- ICONE ---------*/
+
+.fa-cookie-bite{color: #7d4c0c; transform: scale(1.24);}
+.fa-fish{color: #1f67d4; transform: rotate(-30deg) scale(1.24);}
+.fa-pizza-slice{color:#bf0a0f; transform: scale(1.24);}
+
+
+/* ----------------
+      CARDS
+  ----------------- */
+
+.card-title{
+  text-align: center;
+}
+
+.cards{
+  margin: 20px;
+  margin-top: 60px;
+
+  animation-duration: 2s;
+
+}
+
+.card{
+  text-align: center;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.card-text{
+  font-size: 18px;
+}
+
+
+
+                  /* ---------------------
+                      PAGINA INFORMAZIONI
+                    ------------------- */
+.pagina-informazioni{
+  border: 3px solid blue;
+  border-radius: 10px;
+  width: 85vw;
+  height: auto;
+  margin-left: 7.5vw;
+  margin-top: 6vh;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.pagina-informazioni h2{
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+
+
+
+                  /* ---------------------
+                         PAGINA CONTATTI
+                    ------------------- */
+
+.pagina-contatti{
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 9vh;
+}
+
+.pagina-contatti form {
+  width: 80vw;
+  max-width: 700px;
+  height: auto;
+}
+
+.unPoPiuAlto{
+  height: 120px;
+}
+.form-control{
+  height: 100%;
+  resize: none;
+}
+
+.centoxcento{
+  height: 100%;
+}
+
+.testo-problema{
+  margin-left: 15px;
+  text-align: center;
+  font-size: 17px;
+}
+.check-problema{
+  margin-top: 5px;
+}
+
+
+
+
+                        /* ---------------------
+                               PAGINA SUPPORTO
+                          ------------------- */
+
+.pagina-supportaci {
+  border: 3px solid darkred;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: auto;
+  margin-top: 5vh;
+  overflow: hidden;
+  height: auto;
+}
+
+.pagina-supportaci h2{
+  margin-top: 35px;
+  text-transform: uppercase;
+}
+
+
+
+.testo-donazioni{
+  margin: 20px;
+  padding: 10px;
+}
+
+
+.form-donazioni {
+  transform: scale(1.6);
+  margin: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+
+                        /* ---------------------
+                               MODAL BMI
+                          ------------------- */
+
+
+
+.modal-title-calcolo-bmi{
+  color: darkblue;
+  margin-left: 20%;
+}
+
+.modal-body{
+  color: darkblue;
+}
+
+                          /* ---------------------
+                             MODAL LISTA ALIMENTI
+                            ------------------- */
+
+.modal-title-lista-cibi{
+  color: darkblue;
+  margin-left: 40%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modal-mostra-alimenti{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+
+
+/* -------------------
+       FOOTER
+  ----------------- */
+
+footer{
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  padding: 5px;
+}
+
+                        /* -------------------
+                             ANIMAZIONI
+                        ----------------- */
+
+
+@keyframes fadeOut {
+  from {left: 0px;}
+  to {left: -200px;}
+}
+
+
+                        /* -------------------
+                          Div Ringraziamenti
+                        ----------------- */
+
+.ringraziamenti {
+  position: absolute;
+  width: 70vw;
+  height: 50vh;
+  display: none;
+  flex-direction: column;
+  z-index: 100;
+  background: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+                                  /* ------------------------------------------
+                                            MODAL DIETA - PRINCIPALE
+                                  ----------------------------------------- */
+
+.modal-title{
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.modal-body-dieta{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+                                /* -------------------
+                                    MEDIA QUERY
+                                ----------------- */
+
+
+
+@media (max-width: 768px) {
+
+  /* --------------
+        NAVBAR
+    -------------- */
+
+  .nav-item{
+    border-top: 1px solid #eee;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #navbarNavDropdown{
+    margin-top: 10px;
+  }
+
+  .navbar > .btn{
+    font-size: 1.2em;
+    margin: auto;
+  }
+
+  .nav-item > .btn{
+    margin: 10px auto;
+  }
+
+
+  /* --------------
+        CORPO
+    -------------- */
+
+
+  .info{
+    display: block;
+    width: 100%;
+    margin-top: 5vh;
+  }
+
+  .container-form{
+    display: block;
+    width: 100%;
+    padding-top: 5vh;
+  }
+
+  .corpo{
+    /* border: 1px solid blue; */
+    overflow: hidden;
+    height: auto;
+    width: 100vw;
+  }
+
+
+  .modal-title{
+    font-size: 1.2em;
+  }
+
+
+}

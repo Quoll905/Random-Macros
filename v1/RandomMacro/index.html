@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+    <head>
+        <meta charset="utf-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>RandomMacros</title>
+
+        <link rel="stylesheet" href="/index.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" ></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+
+    </head>
+
+    <body>
+
+        <div class="logo-right">
+            <img class="logo-right_img" src="/Immagini/logo/logo5.png" alt="RandomMacro">
+        </div>
+
+
+
+        <header class="header">
+
+            <div class="background-image"></div>
+
+            <nav class="navigation">
+
+                <section class="navigation__icon">
+                    <span class="topBar"></span>
+                    <span class="middleBar"></span>
+                    <span class="bottomBar"></span>
+                </section>
+
+                <ul class="navigation__ul">
+                  <li><a href="">HOME</a></li>
+                  <li><a href="">INFO</a></li>
+                  <li><a href="">CONTATTI</a></li>
+                  <li><a href="">CREDITI</a></li>
+                </ul>
+
+                <div class="compriTuttoQuandoMenuAperto"></div>
+
+            </nav>
+
+
+            <div class="form-contenitore">
+                <div class="loading">
+                    <img class="loading_img" src="Immagini/loading.gif" alt="">
+                </div>
+                <form class="form" action="index.html" method="post">
+                    <div class="error-message"></div>
+                    <label for="Carbo"> <i class="fas fa-cookie-bite"></i> Carbo: </label><br class="only-mobile">
+                    <input type="number" name="carbo" value="" min="1" max="1000" placeholder="Quantità" required><br>
+                    <label for="Proteine"> <i class="fas fa-fish"></i> Proteine: </label><br class="only-mobile">
+                    <input type="number" name="proteine" value="" min="1" max="1000" placeholder="Quantità" required><br>
+                    <label for="Grassi"> <i class="fas fa-hotdog"></i>  Grassi: </label><br class="only-mobile">
+                    <input type="number" name="grassi" value="" min="1" max="1000" placeholder="Quantità" required><br>
+                    <input type="submit" name="submit" value="Calcola!">
+                </form>
+            </div>
+
+            <div class="bottoniAggiuntivi">
+                <button type="button" class="btn1" name="visualizzaListaAlimenti" onclick="listAllAliments()">Lista Alimenti <br> <i class="fas fa-weight"></i> </button>
+                <button type="button" class="btn2" name="aggiungiAlimento" onclick="mostraDivAggiungiAlimento()">Aggiungi Alimento <br> <i class="fas fa-plus-square"></i></button>
+                <button type="button" class="btn3" name="segnalaProblema">Segnala Problema <br> <i class="fas fa-exclamation-triangle"></i> </button>
+            </div>
+
+        </header>
+
+        <div class="formAggiungi">
+            <div class="mostraListaAlimenti"></div>
+            <form class="formAggiungi-form" action="index.html" method="POST">
+                <p>NOME </p><br>
+                <input type="text" name="nomeAlimento" value="" placeholder="Nome" equired><br>
+                <p>MARCA (OPZIONALE)</p> <br>
+                <input type="text" name="marca" value="" placeholder="Marca"><br>
+                <h3>NUTRIENTI per 100g: </h3><br>
+                <p>CARBO: </p>
+                <input type="number" name="carbo" value="" placeholder="carbo" required><br>
+                <p>PROTEINE: </p>
+                <input type="number" name="proteine" value="" placeholder="proteine" required><br>
+                <p>GRASSI: </p>
+                <input type="number" name="grassi" value="" placeholder="grassi" required><br>
+                <input type="button" name="cancel" value="Annulla" onclick="mostraDivAggiungiAlimento()">
+                <input type="submit" name="submit" value="Aggiungi!">
+            </form>
+        </div>
+
+
+        <script type="text/javascript">
+            $(function() {
+                $(".navigation__icon").click(function() {
+                    $(".navigation").toggleClass('navigation-open');
+                    $(".compriTuttoQuandoMenuAperto").toggleClass('navigation-open');
+                });
+            });
+        </script>
+
+        <script type="text/javascript" src="index.js"></script>
+
+    </body>
+
+
+</html>

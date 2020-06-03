@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Random Macros</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" crossorigin="anonymous">
+
+
+    </head>
+
+    <body>
+
+      <!-- ---------- NAVBAR ------------>
+
+      <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <a class="navbar-brand" onclick="mostraPagina('.corpo',false)">Random Macros</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active home" onclick="mostraPagina('.corpo')">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link informazioni" onclick="mostraPagina('.pagina-informazioni')">Informazioni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link contatti" onclick="mostraPagina('.pagina-contatti')">Contatti</a>
+            </li>
+            <li class="nav-item btn-navbar-container supportaci">
+              <button class="btn btn-outline-light" type="button" onclick="mostraPagina('.pagina-supportaci')">Supportaci</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+
+
+      <!-- ---------- INFORMAZIONI (HIDDEN) ------------>
+      <div class="pagina-informazioni animated jackInTheBox">
+        <h2>informazioni</h2>
+        Lorem ipsum ad qui amet dolore, vitae cetero quaerendum mel ea. Facilis fastidii duo no. Viris partiendo ius no, alia animal nam at. Feugait imperdiet ius an, no quis facer lucilius vis. Aliquam saperet contentiones ex pro, id idque offendit ius. Fugit suavitate ad eam, ut essent debitis cum. Cu duo iudico instructior. Sea te choro perfecto, per eu meis nonumy percipit. Ut mea sint constituam, cu pro impedit constituam. Et diam wisi tollit mel, te has atqui veritus. Falli volumus ullamcorper id vis, fugit debet ei pri. Mea esse saperet oporteat cu, sumo interesset an cum. Facer expetenda ius te, sint mundi aperiri no est, mollis salutandi quo ne. No dicta errem sed. Mea ei detraxit patrioque, sumo eirmod ea vix. Et dicit omittantur eam, et vix modo eius vidit. Vis et pertinacia abhorreant constituam, eum at quod vero. Ferri consectetuer sed no, ex vix nonumy posidonium quaerendum. Eum in nostro omnesque philosophia, sit veniam recteque et. Et sit facer honestatis, sonet propriae officiis ne vel, est atqui verear eruditi eu. Ut duo augue deserunt mnesarchum, an per option dignissim, cu cum convenire consulatu deterruisset. Cu vel debet ludus, docendi nominati philosophia ex his. Ad legendos expetendis duo, sed et delicata pericula torquatos. Temporibus delicatissimi eu nam, mel ea ipsum fabulas tractatos, at vim omnis clita omittantur. Ad graeco scriptorem eos. Nam ut nulla congue singulis. Ea his doctus interpretaris, at qui aliquyam complectitur. Vix hinc habeo appareat an, at modo regione tamquam sed. Vim et tritani viderer, puto evertitur nam cu. Sed odio dicunt reprimique ex, ullum noluisse instructior ei sed, ei ius nostro corrumpit. Nec mundi equidem consulatu no. Sea an prodesset intellegat, usu dicit aperiam ut. Usu cu animal meliore. Platonem theophrastus duo ea, eum no alia ludus. Assentior referrentur quo ex. Usu id causae corrumpit patrioque, ei putant nonummy nec, ne nisl laudem petentium mea. Exerci instructior cu qui. Cum probo scribentur ut. Mei pertinax suscipiantur an. Nisl pertinax ex quo, eos esse ornatus at. Usu quidam definitionem no, eu mel quem mazim pertinax. Quodsi percipit consetetur at vim, eam omnis option explicari et. Pri at liber labores, his an utinam labore aperiam. Ei eos justo omnesque reformidans. Inani detraxit voluptatum ut pro. An sit posse probatus inimicus. Magna vivendo deseruisse has at, meis modus molestiae an has. Eam iudicabit constituam mediocritatem ne.
+      </div>
+
+      <!-- ---------- CONTATTI (HIDDEN) ------------>
+      <div class="pagina-contatti animated rollIn">
+        <form method="POST" class="form-contatti">
+            <div class="card border-primary rounded-5">
+                <div class="card-header p-0">
+                    <div class="bg-primary text-white text-center py-2">
+                        <h3><i class="fa fa-envelope"></i> Contattaci! </h3>
+                        <p class="m-0">Ti risponderemo il prima possibile</p>
+                    </div>
+                </div>
+                <div class="card-body p-4">
+
+                    <!--Body-->
+                    <div class="form-group">
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                            </div>
+                            <input type="text" class="form-control" id="nome" name="nome"  placeholder="Nome" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
+                            </div>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="esempio@gmail.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group unPoPiuAlto">
+                        <div class="input-group mb-2 centoxcento">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
+                            </div>
+                            <textarea class="form-control" id="messaggio" name="messaggio" placeholder="Messsaggio..." required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group mb-2 text-center">
+                          <input class="check-problema" type="checkbox" name="problema">
+                          <div class="testo-problema">
+                            Spunta se stai segnalando un problema.
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <input type="submit" value="Invia" class="btn btn-info btn-block rounded-2 py-2">
+                    </div>
+                </div>
+
+            </div>
+        </form>
+      </div>
+
+      <!-- ---------- SUPPORTACI (HIDDEN) ------------>
+      <div class="pagina-supportaci animated flipInX">
+        <h2>supportaci</h2>
+        <div class="testo-donazioni">
+            Lorem ipsum ad qui amet dolore, vitae cetero quaerendum mel ea. Facilis fastidii duo no. Viris partiendo ius no, alia animal nam at. Feugait imperdiet ius an, no quis facer lucilius vis. Aliquam saperet contentiones ex pro, id idque offendit ius. Fugit suavitate ad eam, ut essent debitis cum. Cu duo iudico instructior. Sea te choro perfecto, per eu meis nonumy percipit. Ut mea sint constituam, cu pro impedit constituam. Et diam wisi tollit mel, te has atqui veritus. Falli volumus ullamcorper id vis, fugit debet ei pri. Mea esse saperet oporteat cu, sumo interesset an cum. Facer expetenda ius te, sint mundi aperiri no est, mollis salutandi quo ne. No dicta errem sed. Mea ei detraxit patrioque, sumo eirmod ea vix. Et dicit omittantur eam, et vix modo eius vidit. Vis et pertinacia abhorreant constituam, eum at quod vero. Ferri consectetuer sed no, ex vix nonumy posidonium quaerendum. Eum in nostro omnesque philosophia, sit veniam recteque et. Et sit facer honestatis, sonet propriae officiis ne vel, est atqui verear eruditi eu. Ut duo augue deserunt mnesarchum, an per option dignissim, cu cum convenire consulatu deterruisset. Cu vel debet ludus, docendi nominati philosophia ex his. Ad legendos expetendis duo, sed et delicata pericula torquatos. Temporibus delicatissimi eu nam, mel ea ipsum fabulas tractatos, at vim omnis clita omittantur. Ad graeco scriptorem eos. Nam ut nulla congue singulis. Ea his doctus interpretaris, at qui aliquyam complectitur. Vix hinc habeo appareat an, at modo regione tamquam sed. Vim et tritani viderer, puto evertitur nam cu. Sed odio dicunt reprimique ex, ullum noluisse instructior ei sed, ei ius nostro corrumpit. Nec mundi equidem consulatu no. Sea an prodesset intellegat, usu dicit aperiam ut. Usu cu animal meliore. Platonem theophrastus duo ea, eum no alia ludus. Assentior referrentur quo ex. Usu id causae corrumpit patrioque, ei putant nonummy nec, ne nisl laudem petentium mea. Exerci instructior cu qui. Cum probo scribentur ut. Mei pertinax suscipiantur an. Nisl pertinax ex quo, eos esse ornatus at. Usu quidam definitionem no, eu mel quem mazim pertinax. Quodsi percipit consetetur at vim, eam omnis option explicari et. Pri at liber labores, his an utinam labore aperiam. Ei eos justo omnesque reformidans. Inani detraxit voluptatum ut pro. An sit posse probatus inimicus. Magna vivendo deseruisse has at, meis modus molestiae an has. Eam iudicabit constituam mediocritatem ne.<hr>
+        </div>
+        <form class="form-donazioni" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick" />
+          <input type="hidden" name="hosted_button_id" value="GRD4E46W7ZQSC" />
+          <input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Fai una donazione con il pulsante PayPal" />
+          <img alt="" border="0" src="https://www.paypal.com/it_IT/i/scr/pixel.gif" width="1" height="1" />
+        </form>
+      </div>
+
+
+
+
+
+      <!-- ---------- CORPO PRINCIPALE ------------>
+
+      <div class="corpo clearfix active">
+
+
+              <!-- ---------- TESTO ------------>
+
+        <div class="info animated fadeInLeft">
+          <p>Lorem ipsum ad qui amet dolore, vitae cetero quaerendum mel ea. Facilis fastidii duo no. Viris partiendo ius no, alia animal nam at. Feugait imperdiet ius an, no quis facer lucilius vis. Aliquam saperet contentiones ex pro, id idque offendit ius. Fugit suavitate ad eam, ut essent debitis cum. Cu duo iudico instructior. Sea te choro perfecto, per eu meis nonumy percipit. Ut mea sint constituam, cu pro impedit constituam. Et diam wisi tollit mel, te has atqui veritus. Falli volumus ullamcorper id vis, fugit debet ei pri. Mea esse saperet oporteat cu, sumo interesset an cum. Facer expetenda ius te, sint mundi aperiri no est, mollis salutandi quo ne. No dicta errem sed. Mea ei detraxit patrioque, sumo eirmod ea vix. Et dicit omittantur eam, et vix modo eius vidit. Vis et pertinacia abhorreant constituam, eum at quod vero. Ferri consectetuer sed no, ex vix nonumy posidonium quaerendum. Eum in nostro omnesque philosophia, sit veniam recteque et. Et sit facer honestatis, sonet propriae officiis ne vel, est atqui verear eruditi eu.</p>
+        </div>
+
+
+            <!-- ---------- FORM ------------>
+
+        <div class="container-form clearfix animated fadeInRight">
+          <form class = "formPrincipale" method="POST">
+            <div class="form-group">
+              <label for="carboidrati"><i class="fas fa-cookie-bite"></i> Carboidrati</label><br>
+              <input type="number" class="input-carboidrati" name="input-carboidrati" id="input-carboidrati" required>
+              <!-- <small id="emailHelp" class="form-text text-muted"></small> -->
+            </div>
+            <div class="form-group">
+              <label for="proteine"><i class="fas fa-fish"></i> Proteine</label><br>
+              <input type="number" class="input-proteine" name="input-proteine" id="input-proteine" required>
+            </div>
+            <div class="form-group">
+              <label for="grassi"><i class="fas fa-pizza-slice"></i> Grassi</label><br>
+              <input type="number" class="input-grassi" name="input-grassi" id="input-grassi" required>
+            </div>
+            <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#Dieta">Submit</button>
+          </form>
+        </div>
+
+      </div>
+
+
+
+
+      <!-- ------------ CARDS -------------->
+
+
+      <div class="row row-cols-1 row-cols-sm-3 cards animate zoomInUp">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="BMI.jpg" class="card-img-top" alt="Calcolo Fabbisogno">
+            <div class="card-body">
+              <h4 class="card-title">Calcola Fabbisogno Giornaliero</h4>
+              <p class="card-text">Breve descrizione del fabbisogno calorico giornaliero da inseerire</p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target=".modal-Bmi">Calcola!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="cibo.jpg" class="card-img-top" alt="cibo">
+            <div class="card-body">
+              <h4 class="card-title">Visualizza lista completa cibi</h4>
+              <p class="card-text">Visualizza la lista completa dei cibi inseriti in questo sito.</p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target=".modal-lista-cibi" onclick="mostraListaAlimenti()">Visualizza lista</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="problema.jpg" class="card-img-top img-problema" alt="foto-problema">
+            <div class="card-body">
+              <h5 class="card-title">Segnala un problema!</h5>
+              <p class="card-text">Segnala un problema!</p>
+              <a href="#" class="btn btn-primary segnalaProblema" onclick="mostraPagina('.pagina-contatti', false)">Segnala problema!</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!------- Modal BMI -------->
+      <div class="modal fade modal-Bmi" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title-calcolo-bmi" id="exampleModalScrollableTitle">Calcolo fabbisogno calorico giornaliero</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+
+              Lorem ipsum ad qui amet dolore, vitae cetero quaerendum mel ea. Facilis fastidii duo no. Viris partiendo ius no, alia animal nam at. Feugait imperdiet ius an, no quis facer lucilius vis. Aliquam saperet contentiones ex pro, id idque offendit ius. Fugit suavitate ad eam, ut essent debitis cum. Cu duo iudico instructior. Sea te choro perfecto, per eu meis nonumy percipit. Ut mea sint constituam, cu pro impedit constituam. Et diam wisi tollit mel, te has atqui veritus. Falli volumus ullamcorper id vis, fugit debet ei pri. Mea esse saperet oporteat cu, sumo interesset an cum. Facer expetenda ius te, sint mundi aperiri no est, mollis salutandi quo ne. No dicta errem sed. Mea ei detraxit patrioque, sumo eirmod ea vix. Et dicit omittantur eam, et vix modo eius vidit. Vis et pertinacia abhorreant constituam, eum at quod vero. Ferri consectetuer sed no, ex vix nonumy posidonium quaerendum. Eum in nostro omnesque philosophia, sit veniam recteque et. Et sit facer honestatis.
+              <hr>
+              Potresti iniziare con una divisione bilanciata di macro:  il 40% di queste calorie verrà dalle proteine, il 40% dai carboidrati, il 20% dai grassi.
+              In alternativa, puoi basare il tuo apporto sui seguenti calcoli, che sono progettati per dare la priorità alle proteine per il guadagno e la ritenzione muscolare.
+              <ul>
+                <li> 2 grammi di proteine per chilo di peso corporeo</li>
+                <li> 0,7 grammi – 1,2 grammi di grassi per chilo di peso corporeo</li>
+                <li> Il resto proveniente dai carboidrati</li>
+              </ul>
+                <div class="form-calcolo-calorie">
+                    <div class="yz-widget" data-calculator-type="daily_need" data-language="it" data-unit-system="metric" data-background-color="#EEEEEE" data-text-color="#212121" data-primary-color="#03A9F4" data-alternate-background-color="#FFFFFF" data-alternate-text-color="#FFFFFF" data-secondary-color="#FFC107">
+                      <span class="yz-copyright">Powered by
+                        <a href="https://www.yazio.com/it/calcolatore-fabbisogno-calorico">YAZIO</a>
+                      </span>
+                    </div>
+                </div>
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!------- Modal Lista cibi -------->
+      <div class="modal fade modal-lista-cibi" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title modal-title-lista-cibi" id="exampleModalScrollableTitle">Lista Cibi</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body modal-mostra-alimenti">
+              Lorem ipsum ad qui amet dolore, vitae cetero quaerendum mel ea. Facilis fastidii duo no. Viris partiendo ius no, alia animal nam at. Feugait imperdiet ius an, no quis facer lucilius vis. Aliquam saperet contentiones ex pro, id idque offendit ius. Fugit suavitate ad eam, ut essent debitis cum. Cu duo iudico instructior. Sea te choro perfecto, per eu meis nonumy percipit. Ut mea sint constituam, cu pro impedit constituam. Et diam wisi tollit mel, te has atqui veritus. Falli volumus ullamcorper id vis, fugit debet ei pri. Mea esse saperet oporteat cu, sumo interesset an cum. Facer expetenda ius te, sint mundi aperiri no est, mollis salutandi quo ne. No dicta errem sed. Mea ei detraxit patrioque, sumo eirmod ea vix. Et dicit omittantur eam, et vix modo eius vidit. Vis et pertinacia abhorreant constituam, eum at quod vero. Ferri consectetuer sed no, ex vix nonumy posidonium quaerendum. Eum in nostro omnesque philosophia, sit veniam recteque et. Et sit facer honestatis, sonet propriae officiis ne vel, est atqui verear eruditi eu. Ut duo augue deserunt mnesarchum, an per option dignissim, cu cum convenire consulatu deterruisset. Cu vel debet ludus, docendi nominati philosophia ex his. Ad legendos expetendis duo, sed et delicata pericula torquatos. Temporibus delicatissimi eu nam, mel ea ipsum fabulas tractatos, at vim omnis clita omittantur. Ad graeco scriptorem eos. Nam ut nulla congue singulis. Ea his doctus interpretaris, at qui aliquyam complectitur. Vix hinc habeo appareat an, at modo regione tamquam sed. Vim et tritani viderer, puto evertitur nam cu. Sed odio dicunt reprimique ex, ullum noluisse instructior ei sed, ei ius nostro corrumpit. Nec mundi equidem consulatu no. Sea an prodesset intellegat, usu dicit aperiam ut. Usu cu animal meliore. Platonem theophrastus duo ea, eum no alia ludus. Assentior referrentur quo ex. Usu id causae corrumpit patrioque, ei putant nonummy nec, ne nisl laudem petentium mea. Exerci instructior cu qui. Cum probo scribentur ut. Mei pertinax suscipiantur an. Nisl pertinax ex quo, eos esse ornatus at. Usu quidam definitionem no, eu mel quem mazim pertinax. Quodsi percipit consetetur at vim, eam omnis option explicari et. Pri at liber labores, his an utinam labore aperiam. Ei eos justo omnesque reformidans. Inani detraxit voluptatum ut pro. An sit posse probatus inimicus. Magna vivendo deseruisse has at, meis modus molestiae an has. Eam iudicabit constituam mediocritatem ne.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- - - - - DIV RINGRAZIAMENTI - - - - -->
+
+      <div class="ringraziamenti animated fadeIn">
+        <h3>Grazie per averci contattati!</h3>
+        <h6>Risponderemo il prima possibile.</h6>
+      </div>
+
+
+
+
+
+
+
+
+
+<!--  - - - - - - - - - - -  - - - MODAL MOSTRA DIETRA - PRINCIPALE  - - - - - - - - - - - - - - - - - - - --->
+
+
+      <div class="modal fade" id="Dieta" tabindex="-1" role="dialog" aria-labelledby="Dieta" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="Dieta">ECCO LA TUA DIETA RANDOM:</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body modal-body-dieta">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+      <footer>Coopyright© blablabla</footer>
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+
+        <script src="https://widget.yazio.com/calculator.js" async></script>
+        <script src="contatti.js" ></script>
+        <script src="mostraLista.js" ></script>
+        <script src="Dieta.js" ></script>
+
+    </body>
+
+</html>
